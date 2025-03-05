@@ -1,8 +1,7 @@
 {
-  "name": "law-firm-website",
+  "name": "law-website",
   "version": "0.1.0",
   "private": true,
-  "name": "your-project",
   "homepage": "https://umbralys.github.io/law-website",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
