@@ -8,7 +8,7 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-slate-900 bg-opacity-70">
         {/* You'll need to add your own image here */}
         <div className="bg-cover bg-center absolute inset-0 mix-blend-overlay" 
-     style={{backgroundImage: "url('/law-website/public/images/hero.png')"}}></div>
+     style={{backgroundImage: "url('./images/hero.png')"}}></div>
       </div>
       
       {/* Content */}
