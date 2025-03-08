@@ -13,6 +13,17 @@ const Header = () => {
             <Link to="/" className="text-2xl font-bold">MORGAN & ASSOCIATES</Link>
           </div>
           
+          {/* Back to Portfolio Button */}
+          <a 
+            href="https://umbralys.github.io/projects/" 
+            className="ml-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-md font-medium transition duration-300 flex items-center"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+            </svg>
+            Back to Portfolio
+          </a>
+          
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="text-white hover:text-blue-300 transition duration-300">Home</Link>
@@ -46,6 +57,16 @@ const Header = () => {
               <Link to="/law-types" className="text-white hover:text-blue-300 transition duration-300">Law Types</Link>
               <Link to="/services" className="text-white hover:text-blue-300 transition duration-300">Services</Link>
               <Link to="/contact" className="text-white hover:text-blue-300 transition duration-300">Contact</Link>
+              {/* Add back to portfolio link for mobile */}
+              <a 
+                href="https://umbralys.github.io/projects/" 
+                className="text-white hover:text-blue-300 transition duration-300 flex items-center"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                </svg>
+                Back to Portfolio
+              </a>
             </div>
           </div>
         )}
